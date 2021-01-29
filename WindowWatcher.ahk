@@ -12,8 +12,8 @@ SetTitleMatchMode 2
 ;{AutoExecute
 ;{Define Groups for different functions
 ;{Move to Top Right Corner
-GroupAdd, MoveTRC, ahk_class SomeClass
-GroupAdd, MoveTRC, ahk_exe SomeExe
+;GroupAdd, MoveTRC, ahk_class SomeClass
+;GroupAdd, MoveTRC, ahk_exe SomeExe
 ;}
 ;{Maximize on Open
 GroupAdd, MaximizeOnOpen, 
@@ -22,9 +22,9 @@ GroupAdd, MaximizeOnOpen,
 ;GroupAdd, DoNotMax, 
 ;}
 ;{AllGroups
-GroupAdd, AllGroups, ahk_group MoveTRC
-GroupAdd, AllGroups, ahk_group MaximizeOnOpen
-GroupAdd, AllGroups, ahk_group DoNotMax
+;GroupAdd, AllGroups, ahk_group MoveTRC
+;GroupAdd, AllGroups, ahk_group MaximizeOnOpen
+;GroupAdd, AllGroups, ahk_group DoNotMax
 ;}
 ;}
 WindowWatcherInit() ;initializes a loop that takes certain actions when certain windows open
