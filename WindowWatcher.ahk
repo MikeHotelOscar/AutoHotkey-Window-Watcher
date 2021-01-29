@@ -4,7 +4,6 @@ SendMode Input
 #UseHook On ;forces the use of keyboard hooks in hotkey execution
 #SingleInstance force ;only one instance of this script may run at a time!
 #WinActivateForce ;uses the not nice way to manipulate which window is active
-#WinActivateForce ;https://autohotkey.com/docs/commands/_WinActivateForce.htm ;prevent taskbar flashing.
 #Persistent
 Process, Priority, , High
 SetTitleMatchMode 2
