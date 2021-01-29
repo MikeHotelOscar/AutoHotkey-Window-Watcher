@@ -16,7 +16,7 @@ SetTitleMatchMode 2
 ;GroupAdd, MoveTRC, ahk_exe SomeExe
 ;}
 ;{Maximize on Open
-GroupAdd, MaximizeOnOpen, 
+;GroupAdd, MaximizeOnOpen, 
 ;}
 ;{Do Not Maximize
 ;GroupAdd, DoNotMax, 
